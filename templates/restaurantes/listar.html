@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %} Listado de Restaurantes {% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+    <h2 tyle="text-align:center;"><i class="fa fa-info"></i> Restaurantes Almacenados</h2>
+    <p class="text-justify"> Aquí encontrará un listado de los restaurantes almacenados en el sistema o que coinciden con su criteiro de búsqueda por tipo de cocina. Abra el que quiera para ver su ficha.</p>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+<div class="row">
+  <div id="restaurant-list" class="list-group">
+    {% for r in resta %}
+      <a  id="restaurant-item" href="{% url 'restaurant' r.restaurant_id %}" class="well well-sm">{{ r.name }}</a>
+    {% empty %}
+      <h2 style="text-align:center;">No hay restaurantes. :(</h2>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

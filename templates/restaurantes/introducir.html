@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %} Buscar Restaurantes {% endblock %}
+
+{% block content %}
+  <div class="col-md-4"></div>
+  <div id="center-box" class="col-md-4">
+      <h2>Buscar Restaurantes</h2>
+      <form class="form-inline my-2 my-lg-0" method="get" action="{% url 'buscar' %}">
+          <input class="form-control mr-sm-2" type="text" placeholder="Zona..." name="zona">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+  </div>
+  <div class="col-md-4"></div>
+{% endblock %}

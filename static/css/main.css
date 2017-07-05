@@ -1,0 +1,114 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/*RESTAURANTES*/
+
+#restaurant
+{
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#restaurant-image
+{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+/*LISTA DE RESTAURANTES*/
+
+#restaurant-list
+{
+  padding: 30px;
+}
+
+#restaurant-item
+{
+  padding: 5px;
+  margin-top: 100px;
+}
+
+/*FORMULARIOS Y RECURSOS CENTRADOS*/
+
+#center-box
+{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+#button-users
+{
+  float:right;
+  padding: 10px;
+  margin: 10px;
+}
+
+/*MENUS*/
+
+
+.activar{
+  font-weight:bold;
+  color:#58FA82 !important;
+}
+
+/*FOOTER*/
+
+#custom-footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+/*MAPS*/
+
+#map {
+  height: 430px;
+  position: relative;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.maps-frame {
+  height: 430px;
+  width: 100%;
+}
+
+.kd-tabbed-vert.header-links .kd-tabbutton a {
+  color: #757575;
+  display: inline-block;
+  height: 100%;
+  padding: 0 24px;
+  width: 100%;
+}
+
+.kd-tabbed-vert.header-links .kd-tabbutton {
+  padding: 0;
+}
+
+.kd-tabbed-vert.header-links .kd-tabbutton.selected a {
+  color: #03a9f4;
+}
+
+.kd-tabbed-vert.header-links .kd-tabbutton a:focus {
+  text-decoration: none;
+}
+
+p.top-desc {
+  padding: 1em 1em .1em 1em;
+}
+
+p.bottom-desc {
+  padding: 0em 1em 1em 1em;
+}
